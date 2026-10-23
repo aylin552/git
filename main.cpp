@@ -18,11 +18,11 @@ int main() {
 
     if (op == "div" && b==0 )
     {
-        cout << "error"<< endl;
+        cout << "Error"<< endl;
     }
     else if (op != "add" && op !="sub" && op !="mul" && op !="div")
     {
-        cout << "invalid"<< endl;
+        cout << "Invalid"<< endl;
     }
     else
     {
